@@ -1,0 +1,19 @@
+#j基本配置
+spring:
+  profiles:
+    active: dev
+
+#mybatis配置
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+
+---
+
+#开发环境配置
+spring:
+  profiles: dev
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: lawen
+    driver-class-name: com.mysql.jdbc.Driver
