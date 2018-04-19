@@ -1,2 +1,3 @@
 # sprintboot-mybatis
-Spring Boot Using Mabtis Demo
+This is a spring boot demo using mabits.
+
